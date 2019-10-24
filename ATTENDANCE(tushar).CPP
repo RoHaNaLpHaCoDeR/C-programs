@@ -74,15 +74,7 @@ void main()
 	}while(choice!=6);
 	getche();
 }
-void Enter_File1()
-{
-	ofstream afile("pro1.dat",ios::binary|ios::app);
-	A.GetData5();
-	afile.write((char*)& A,sizeof(A));
-	afile.close();
-	cout<<"\n\t";
-	getche();
-}
+
 void Display_File1()
 {
 	ifstream bfile("pro1.dat",ios::binary);
