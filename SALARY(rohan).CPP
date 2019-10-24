@@ -69,15 +69,29 @@ void modifysalary();
 		     }while(c!=6);
 getche();
 }
-void entersalary()
+void Modify2()
 {
-		ofstream afile("devel.dat",ios::binary|ios::app );
-		S.GetData3();
-		afile.write((char*)& S, sizeof(S));
-		afile.close();
-cout<<endl;
-getche();
-}
+	int q=-1;
+	int a=0;
+	char t[20];
+	cout<<"\n\tPlease enter the Ward name which is to modified\n\t";
+	gets(t);
+	fstream dfile("pro2.dat",ios::in|ios::out|ios::binary);
+	while(dfile.read((char*)& W,sizeof(W)))
+	{
+		a++;
+		if(strmpi(Ward,t)==0)
+		{
+			W.GetData6();
+			dfile.seekp((a-1)*sizeof(W),ios::beg);
+			dfile.write((char*)& W,sizeof(W));
+			q++;
+		}
+	}
+	if(q==-1)
+		cout<<"Sorry Record not found";
+	dfile.close();
+	getche();
 void displaysalary()
 {
                 ifstream bfile("devel.dat",ios::binary);
