@@ -41,16 +41,32 @@ int BUDGET:: getAverageBud()
 }
 int BUDGET:: GetBudget()
 {
+     int c;
+ if (c==BudforEducation)
+ {
      cout<<"budget for education";
 return(BudForEducation);
-     cout<<"budget for health";
+ }
+  else if(c==BudForHealth)
+  {
+	  cout<<"budget for health";
 return(BudForHealth);
+  }
+ else if(c==BudForTransport)
+ {
      cout<<"budget for transport";
 return(BudForTransport);
+ }
+ else if(c==BudForElectricity)
+ {
      cout<<"budget for electricity";
 return(BudForElectricity);
+ }
+ else
+ {
      cout<<"budget for water";
 return(BudForWater);
+ }
 }
 BUDGET B;
 void main()
