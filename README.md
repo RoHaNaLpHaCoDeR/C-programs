@@ -71,4 +71,16 @@ There have been concerns from developers Kyle Simpson, JavaScript trainer and au
 Some[who?] saw this as a culmination of Microsoft's recent changes in business strategy under CEO Satya Nadella, which has seen a larger focus on the sale of cloud computing services as its main line of business, alongside development of and contributions to open source software (such as Linux), as opposed to the Microsoft Windows operating system.[33][4][30] Harvard Business Review argued that Microsoft was intending to acquire GitHub to get access to its userbase, so it can be used as a loss leader to encourage use of its other development products and services.[34]
 
 Concerns over the sale bolstered interest in competitors: Bitbucket (owned by Atlassian), GitLab (a commercial open source product that also runs a hosted service version) and SourceForge (owned by BIZX, LLC) reported that they had seen spikes in new users intending to migrate projects from GitHub to their respective services.[35][36][37][38]
+The following list illustrates the importance the C programming language, in no particular order:
+
+The C language is small and relatively easy to learn.
+1.C compilers can produce highly efficient code.
+2.C compilers and cross-compilers are widely available for a large array of hardware targets, from tiny eight-bit microcontrollers to giant mainframes. The availability of compilers enables highly portable source code to be written, when appropriate disciplines are followed.
+3.C, although it is a high-level language, provides access to some fundamental low-level concepts such as memory addresses and dynamic memory management - concepts that are hidden by many other languages.
+4.C has been used to implement (in whole or in part) several major operating systems and kernels, including Unix, Linux, MacOS, and Windows.
+5.C has been used to implement (in whole or in part) runtime environments supporting execution of platform-independent code (e.g., the Java Virtual Machine, the .NET CLR, etc.).
+6.C is often used to implement efficient libraries for less-efficient languages. For example, many libraries for Python are implemented in C.
+7.Compilers and interpreters for a wide variety of programming languages have been written in C.
+8.C remains the most popular programming language for programming microcontrollers in embedded systems.
+9.C has influenced the following programming languages: PHP, C++, LPC, Perl, Vala, Objective-C, PCASTL, AWK, JavaScript, Limbo, D, C#, MOO, SISAL, Pike, ECMAScript, Joy, C--, Ferite, Yoix, ColdC, Aikido Programming Language, Nickle, BitC, Processing, NWScript, SAC programming language, Vala, Kaya, MIVA Script, Corba IDL, QuakeC, S-Lang, Cilk, Unified Parallel C, Split-C, Claire, VisSim, Java, Go, AMPL, Alpoca, Draco, S, Alef, Game Maker Language, BAIL
 
