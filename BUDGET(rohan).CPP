@@ -40,7 +40,7 @@ int BUDGET:: getAverageBud()
 	  return(AverageBudget);
 }
 int BUDGET:: GetBudget()
-{int c;
+
  if (c==BudforEducation)
  {
      cout<<"budget for education";
